@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class UrlMappingEx01 extends HttpServlet {
 	
 	// Server를 설정하지 않으면 run 불가
+	// Stash Check
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
